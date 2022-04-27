@@ -51,7 +51,7 @@ res <- mclapply(deltas, function(d){
     return(ws)
   })
   return(wres)
-}, mc.cores=4)
+})
 
 
 #load("stacking_simulation_results.Rda")
